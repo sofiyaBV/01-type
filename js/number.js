@@ -30,7 +30,18 @@
 
 
 //---------------------------------------
-const max = 80
-const min = 10
-let random = Math.round( Math.random() * (max-min)+min)
-console.log(random);
+// const max = 80
+// const min = 10
+// let random = Math.round( Math.random() * (max-min)+min)
+// console.log(random);
+
+// let a = 0.17;
+// let b = 0.24;
+// console.log((a + b + a).toFixed(2));
+
+
+let salary = Number(prompt("Введіть зарплатню"));
+const bonus = 0.15;
+const taxes = 0.19;
+let result = salary + salary * bonus -  taxes;
+alert(`Ваша зарплатня = ${result}`);
